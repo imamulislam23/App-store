@@ -1,0 +1,290 @@
+[
+  {
+    "image": "/public/assets/chat.png",
+    "title": "ChatFlow AI",
+    "companyName": "OpenTech Labs",
+    "id": 1,
+    "description": "An AI-powered chat assistant that helps you manage tasks, answer questions, and automate daily work.",
+    "size": 82,
+    "reviews": 12450,
+    "ratingAvg": 4.6,
+    "downloads": 1500000,
+    "ratings": [
+      { "name": "1 star", "count": 230 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 820 },
+      { "name": "4 star", "count": 3100 },
+      { "name": "5 star", "count": 9900 }
+    ]
+  },
+  {
+    "image": "/public/assets/project-management.png",
+    "title": "TaskNest",
+    "companyName": "BrightApps Co.",
+    "id": 2,
+    "description": "A productivity and task management tool to help teams stay organized and collaborate effectively.",
+    "size": 56,
+    "reviews": 8675,
+    "ratingAvg": 4.2,
+    "downloads": 780000,
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 1100 },
+      { "name": "4 star", "count": 2600 },
+      { "name": "5 star", "count": 3875 }
+    ]
+  },
+  {
+    "image": "/public/assets/digital-camera.png",
+    "title": "PhotoCraft Studio",
+    "companyName": "Lensify Inc.",
+    "id": 3,
+    "description": "Edit photos like a pro with AI filters, color correction, and background removal tools.",
+    "size": 95,
+    "reviews": 23400,
+    "ratingAvg": 4.8,
+    "downloads": 5200000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 650 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 5100 },
+      { "name": "5 star", "count": 17050 }
+    ]
+  },
+  {
+    "image": "/public/assets/fitness-gym.png",
+    "title": "FitMate Pro",
+    "companyName": "ActiveEdge",
+    "id": 4,
+    "description": "Track workouts, calories, and fitness goals with real-time progress and AI recommendations.",
+    "size": 73,
+    "reviews": 9800,
+    "ratingAvg": 4.5,
+    "downloads": 950000,
+    "ratings": [
+      { "name": "1 star", "count": 350 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 2600 },
+      { "name": "5 star", "count": 5450 }
+    ]
+  },
+  {
+    "image": "/public/assets/brain.png",
+    "title": "MindWave",
+    "companyName": "NeuroByte Ltd.",
+    "id": 5,
+    "description": "A meditation and focus app that uses ambient sounds and breathing exercises to reduce stress.",
+    "size": 41,
+    "reviews": 6750,
+    "ratingAvg": 4.4,
+    "downloads": 640000,
+    "ratings": [
+      { "name": "1 star", "count": 290 },
+      { "name": "2 star", "count": 410 },
+      { "name": "3 star", "count": 780 },
+      { "name": "4 star", "count": 2100 },
+      { "name": "5 star", "count": 3170 }
+    ]
+  },
+  {
+    "image": "/public/assets/notes.png",
+    "title": "NoteWave",
+    "companyName": "SoftCraft Studios",
+    "id": 6,
+    "description": "A cloud-based note-taking app with AI summaries, voice dictation, and multi-device sync.",
+    "size": 68,
+    "reviews": 10200,
+    "ratingAvg": 4.3,
+    "downloads": 1150000,
+    "ratings": [
+      { "name": "1 star", "count": 420 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 1100 },
+      { "name": "4 star", "count": 2800 },
+      { "name": "5 star", "count": 5180 }
+    ]
+  },
+  {
+    "image": "/public/assets/budget-breakdown.png",
+    "title": "BudgetPal",
+    "companyName": "FinSync Ltd.",
+    "id": 7,
+    "description": "Plan your budget, track expenses, and save smarter with AI-based insights.",
+    "size": 52,
+    "reviews": 8450,
+    "ratingAvg": 4.1,
+    "downloads": 890000,
+    "ratings": [
+      { "name": "1 star", "count": 520 },
+      { "name": "2 star", "count": 760 },
+      { "name": "3 star", "count": 1300 },
+      { "name": "4 star", "count": 2500 },
+      { "name": "5 star", "count": 3370 }
+    ]
+  },
+  {
+    "image": "/public/assets/learning.png",
+    "title": "Learnify",
+    "companyName": "EduSmart Technologies",
+    "id": 8,
+    "description": "Interactive learning app offering video lessons, quizzes, and AI-powered tutoring.",
+    "size": 112,
+    "reviews": 15800,
+    "ratingAvg": 4.7,
+    "downloads": 2400000,
+    "ratings": [
+      { "name": "1 star", "count": 460 },
+      { "name": "2 star", "count": 580 },
+      { "name": "3 star", "count": 960 },
+      { "name": "4 star", "count": 3300 },
+      { "name": "5 star", "count": 10500 }
+    ]
+  },
+  {
+    "image": "/public/assets/cloudy.png",
+    "title": "WeatherLink",
+    "companyName": "SkyWatch Systems",
+    "id": 9,
+    "description": "Get hyper-local weather forecasts, radar maps, and storm alerts in real time.",
+    "size": 47,
+    "reviews": 5400,
+    "ratingAvg": 4.0,
+    "downloads": 680000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 620 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 1700 },
+      { "name": "5 star", "count": 1780 }
+    ]
+  },
+  {
+    "image": "/public/assets/travel-guide.png",
+    "title": "TravelMate",
+    "companyName": "Tripify Inc.",
+    "id": 10,
+    "description": "Discover destinations, plan trips, and book hotels — all in one seamless travel app.",
+    "size": 124,
+    "reviews": 13400,
+    "ratingAvg": 4.5,
+    "downloads": 3000000,
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 740 },
+      { "name": "3 star", "count": 1100 },
+      { "name": "4 star", "count": 3100 },
+      { "name": "5 star", "count": 7860 }
+    ]
+  },
+  {
+    "image": "/public/assets/music.png",
+    "title": "Musicify",
+    "companyName": "Harmony Hub",
+    "id": 11,
+    "description": "Stream millions of songs, create playlists, and enjoy personalized recommendations.",
+    "size": 98,
+    "reviews": 42500,
+    "ratingAvg": 4.8,
+    "downloads": 12000000,
+    "ratings": [
+      { "name": "1 star", "count": 900 },
+      { "name": "2 star", "count": 1200 },
+      { "name": "3 star", "count": 2000 },
+      { "name": "4 star", "count": 7100 },
+      { "name": "5 star", "count": 31300 }
+    ]
+  },
+  {
+    "image": "/public/assets/chef.png",
+    "title": "CookEasy",
+    "companyName": "TastyTech",
+    "id": 12,
+    "description": "Find recipes, create meal plans, and get step-by-step cooking guides with timers.",
+    "size": 76,
+    "reviews": 8900,
+    "ratingAvg": 4.6,
+    "downloads": 950000,
+    "ratings": [
+      { "name": "1 star", "count": 280 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 870 },
+      { "name": "4 star", "count": 2900 },
+      { "name": "5 star", "count": 4450 }
+    ]
+  },
+  {
+    "image": "/public/assets/safe.png",
+    "title": "SecureVault",
+    "companyName": "LockByte Security",
+    "id": 13,
+    "description": "Protect your passwords, files, and digital identity with advanced encryption.",
+    "size": 62,
+    "reviews": 7200,
+    "ratingAvg": 4.3,
+    "downloads": 770000,
+    "ratings": [
+      { "name": "1 star", "count": 350 },
+      { "name": "2 star", "count": 540 },
+      { "name": "3 star", "count": 880 },
+      { "name": "4 star", "count": 2300 },
+      { "name": "5 star", "count": 3130 }
+    ]
+  },
+  {
+    "image": "/public/assets/reading.png",
+    "title": "Readly",
+    "companyName": "PageTurner Co.",
+    "id": 14,
+    "description": "Read books, listen to audiobooks, and discover new authors tailored to your interests.",
+    "size": 88,
+    "reviews": 11200,
+    "ratingAvg": 4.7,
+    "downloads": 1600000,
+    "ratings": [
+      { "name": "1 star", "count": 320 },
+      { "name": "2 star", "count": 480 },
+      { "name": "3 star", "count": 1020 },
+      { "name": "4 star", "count": 3000 },
+      { "name": "5 star", "count": 6380 }
+    ]
+  },
+  {
+    "image": "/public/assets/multimedia.png",
+    "title": "StreamBox",
+    "companyName": "Visionary Media",
+    "id": 15,
+    "description": "Watch movies and TV shows in HD with offline download and parental control features.",
+    "size": 145,
+    "reviews": 50200,
+    "ratingAvg": 4.9,
+    "downloads": 15000000,
+    "ratings": [
+      { "name": "1 star", "count": 1200 },
+      { "name": "2 star", "count": 1500 },
+      { "name": "3 star", "count": 2400 },
+      { "name": "4 star", "count": 7600 },
+      { "name": "5 star", "count": 37500 }
+    ]
+  },
+  {
+    "image": "/public/assets/trolley.png",
+    "title": "QuickCart",
+    "companyName": "ShopEase",
+    "id": 16,
+    "description": "Shop groceries and daily items online with instant delivery and secure payment options.",
+    "size": 103,
+    "reviews": 26400,
+    "ratingAvg": 4.5,
+    "downloads": 4900000,
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 1100 },
+      { "name": "3 star", "count": 2300 },
+      { "name": "4 star", "count": 6200 },
+      { "name": "5 star", "count": 16000 }
+    ]
+  }
+]
