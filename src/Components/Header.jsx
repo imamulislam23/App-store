@@ -1,43 +1,68 @@
-import React from 'react';
+import React from "react";
+import { FaGithub } from "react-icons/fa6";
+import { Link, NavLink } from "react-router";
 
 const Header = () => {
-    return (
-        <div className="navbar bg-base-100 shadow-sm">
-  {/* <div className="navbar-start">
-    <div className="dropdown">
-      <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
-        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
+  return (
+    <div className="navbar bg-base-100 shadow-sm flex justify-between">
+      <div className="lg:navbar-start ">
+        <Link to="/" className="flex justify-between items-center">
+          <img src={"/public/assets/logo.png"} className="w-4 h-4" alt="" />
+          <p className="bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent  font-semibold">
+            HERO.IO
+          </p>
+        </Link>
       </div>
-      <ul
-        tabIndex="-1"
-        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-        <li><a>Item 1</a></li>
-        <li>
-          <a>Parent</a>
-          <ul className="p-2">
-            <li><a>Submenu 1</a></li>
-            <li><a>Submenu 2</a></li>
-          </ul>
-        </li>
-        <li><a>Item 3</a></li>
-      </ul>
+      <div className="navbar-center lg:flex">
+        <ul className="flex flex-row gap-x-2 ">
+          <li>
+            <NavLink
+              to="/"
+              className={({ isActive }) =>
+                isActive
+                  ? " border-b-4 bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent  font-semibold"
+                  : "font-semibold text-black hover:bg-gradient-to-r hover:from-[#632EE3] hover:to-[#9F62F2] hover:bg-clip-text hover:text-transparent"
+              }
+            >
+              Home
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/Apps"
+              className={({ isActive }) =>
+                isActive
+                  ? "border-b-4 bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent  font-semibold"
+                  : "font-semibold text-black hover:bg-gradient-to-r hover:from-[#632EE3] hover:to-[#9F62F2] hover:bg-clip-text hover:text-transparent"
+              }
+            >
+              Apps
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/Installed"
+              className={({ isActive }) =>
+                isActive
+                  ? " border-b-4 bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent  font-semibold"
+                  : "font-semibold text-black hover:bg-gradient-to-r hover:from-[#632EE3] hover:to-[#9F62F2] hover:bg-clip-text hover:text-transparent"
+              }
+            >
+              Installed
+            </NavLink>
+          </li>
+        </ul>
+      </div>
+      <div className="navbar-end  ">
+        <div className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] ">
+          <div>
+            <FaGithub></FaGithub>
+          </div>
+          <p>Contribute</p>
+        </div>
+      </div>
     </div>
-    <a className="btn btn-ghost text-xl">daisyUI</a>
-  </div> */}
-  <div className="navbar-center hidden lg:flex">
-    <ul className="menu menu-horizontal px-1">
-      <li><a>Home</a></li>
-      <li>
-        <a>Apps</a>
-      </li>
-      <li><a>Installation</a></li>
-    </ul>
-  </div>
-  <div className="navbar-end">
-    <a className="btn">Button</a>
-  </div>
-</div>
-    );
+  );
 };
 
 export default Header;

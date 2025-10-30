@@ -13,9 +13,16 @@ const Apps = () => {
   return (
     <Container>
       <div>
-        <div></div>
-        <div>
-          <span>({searchedApps.length}) Apps Found</span>
+        <div className="max-w-2xl mx-auto flex flex-col items-center my-10">
+          <h1 className="text-4xl font-semibold">Our All Applications</h1>
+          <p>
+            Explore All Apps on the Market developed by us. We code for Millions
+          </p>
+        </div>
+        <div className="flex justify-between">
+          <span className="font-semibold">
+            ({searchedApps.length}) Apps Found
+          </span>
           <label className="input">
             <input
               value={search}
@@ -25,7 +32,7 @@ const Apps = () => {
             />
           </label>
         </div>
-        <div className="grid grid-cols-1 lg:grid-cols-4 gap-4">
+        <div className="grid grid-cols-1 lg:grid-cols-4 gap-4 my-4">
           {searchedApps.map((apps) => (
             <Appcard key={apps.id} apps={apps}></Appcard>
           ))}
